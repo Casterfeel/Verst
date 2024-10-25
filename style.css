@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('./fonts/Graphik-Regular.ttf');
+}
+
+
+
+body {
+    min-width: 320px;
+    font-family: 'Graphik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('./images/Lunch_atop_a_Skyscraper 1.png');
+    width: 100%;
+    height: 960px;
+    color: #fff;
+    position: relative;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap:9px;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 32, 255, 0.634);
+    z-index: 1; 
+    height: 960px;
+}
+
+.header__par{
+    color: #fff;
+}
+
+.header__navs ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+.header__navs li {
+    cursor: pointer;
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    margin-top: 233px;
+    max-width: 334px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header__btn {
+    width: 251px;
+    height: 64px;
+    background-color: #fff;
+    margin-top: 92px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.main__blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.main__block-1, .main__block-2, .main__block-3 {
+    max-width: 280px;
+}
+
+.main__block-2, .main__block-3, .main__block-4 {
+    margin-left: 32px;
+}   
+
+.main__info-left {
+    max-width: 592px;
+    width: 100%;    
+    margin-top: 105px;  
+}
+
+.main__info {
+    display: flex;
+}
+
+.main__info-left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.car {
+    position: relative;
+}
+
+.man {
+    position: absolute;
+    left: 50%;
+}
+
+.main__reviews {
+    background-color: #F6F8FA;
+    padding-top: 57px;
+}
+
+.block-1, .block-3 {
+    display: flex;
+    align-items: center;
+}
+
+.main__reviews-blocks {
+    display: flex;
+    align-items: center;
+}
+
+.block-2 {
+    margin-top: 25px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 45px;
+}
+
+.main__questions {
+    margin-top: 45px;
+}
+
+.main__questions-blocks >  .question__block-1, .question__block-2, .question__block-3, .question__block-4, .question__block-5, .question__block-6, .questions__block-7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question__block-1 {
+    border-top: 1px solid #F6F8FA;
+    border-bottom: 1px solid #F6F8FA;
+}
+
+.question__block-2 {
+    border-bottom: 1px solid #F6F8FA;
+}
+
+.question__block-3 {
+    border-bottom: 1px solid #F6F8FA;
+}
+
+.question__block-4 {
+    border-bottom: 1px solid #F6F8FA;
+}
+
+.question__block-5 {
+    border-bottom: 1px solid #F6F8FA;
+}
+
+.question__block-6 {
+    border-bottom: 1px solid #F6F8FA;
+}
+
+.main__interviews {
+    background-color: #F6F8FA;
+    margin-top: 50px;
+}
+
+.main__interviews-top {
+    display: flex;
+    gap: 32px;
+}
+
+.main__interviews-bottom {
+    display: flex;
+    gap: 32px;
+    margin-top: 37px;
+}
+
+.form {
+    width: 800px;
+    height: 258px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+input {
+    width: 384px;
+    height: 64px;
+    background-color: #F6F8FA;
+    border: none;
+}
+
+.form__inputs {
+    display: flex;
+    gap: 32px;
+}
+
+.form__check {
+    display: flex;
+    align-items:center;
+    margin-top: 32px;
+}
+
+.form__check p {
+    margin-left: 16px;
+}
+
+.form__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__button {
+    width: 384px;
+    height: 64px;
+    border: none;
+    background-color: #2A6CEA;
+    color: #fff;
+    margin-top: 30px;
+}
